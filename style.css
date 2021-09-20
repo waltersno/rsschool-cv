@@ -161,7 +161,7 @@ a:hover {
 
 .blackBack::after {
     content: "";
-    width: 200px;
+    width: 150px;
     height: 2px;
     background-color: #545454;
     display: block;
