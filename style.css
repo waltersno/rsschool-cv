@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
     word-break: break-all;
 }
@@ -18,6 +18,31 @@ a:hover {
 
 .wrapper {
     margin: 2rem 0;
+}
+
+.nav {
+    position: fixed;
+    z-index: 500;
+    background: currentColor;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0.5rem;
+    line-height: 30px;
+    display: none;
+}
+
+.burger-wrapper {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    background: #fff;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.show {
+    display: block;
 }
 
 .main {
@@ -164,6 +189,15 @@ a:hover {
 
 @media only screen and (max-width: 550px)  {
     .blackBack::after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 570px)  {
+    .nav {
+        display: none;
+    }
+    .burger-wrapper {
         display: none;
     }
 }

@@ -25,11 +25,22 @@
     <script>
       hljs.initHighlightingOnLoad();
     </script>
+    <script src="js/script.js"></script>
     <title>CV page</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
+        <nav class="nav">
+          <ul>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#example">Example</a></li>
+          </ul>
+        </nav>
+        <div class="burger-wrapper">
+          <img src="assets/images/burger.png" alt="burger">
+        </div>
         <main>
           <div class="row main">
             <section class="col-xs-12 col-lg-5 left-side pt-3 pb-3">
@@ -136,7 +147,7 @@
               </div>
             </section>
             <section class="col-xs-12 col right-side pt-4 pb-4">
-              <div class="blackBack">EXPERIENCE</div>
+              <div class="blackBack" id="experience">EXPERIENCE</div>
               <div class="expItems mt-3">
                 <h4>Gala web studio (6 months)</h4>
                 <h5>Web designer</h5>
@@ -155,13 +166,13 @@
                   Angular, NodeJS.
                 </p>
               </div>
-              <div class="blackBack">EDUCATION</div>
+              <div class="blackBack" id="education">EDUCATION</div>
               <div class="expItems mt-3">
                 <h4>Bachelor's degree, Engineering</h4>
                 <h5>Manash Kozybayev North Kazakhstan University</h5>
                 <p>2016-2020</p>
               </div>
-              <div class="blackBack">CODE EXAMPLE</div>
+              <div class="blackBack" id="example">CODE EXAMPLE</div>
               <div class="expItems mt-3">
                 <pre><code class="js">
 function firstNonRepeatingLetter(s) {
