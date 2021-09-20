@@ -152,3 +152,9 @@ a:hover {
 .expItems h3, h4, h5{
     font-weight: 700;
 }
+
+@media only screen and (max-width: 550px)  {
+    .blackBack::after {
+        display: none;
+    }
+}
