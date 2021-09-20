@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+    color: #e1ef07;
+}
+
+a:hover {
+    color: brown;
+}
+
+.wrapper {
+    margin: 2rem 0;
+}
+
+.main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.79) 4.17%, rgba(30, 28, 28, 0.8) 100%);
+    border-radius: 10px;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.left-side {
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.right-side {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.img_container img {
+    display: block;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.main-information {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.name_position > .position{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.name_position > .name{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.name_position > .surname{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.gray_container {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 0.4rem;
+}
+
+.industry_container {
+    display: block;
+    font-weight: 700;
+}
+
+.headerPresent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 2rem;
+}
+
+.languages span {
+    margin-right: 1rem;
+}
+
+.languages ul {
+    list-style: none;
+}
+
+.social  ul{
+    list-style: none;
+}
+
+.hobbies {
+    width: fit-content;
+    font-weight: 700;
+}
+
+.hobbies_items {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies_items img {
+    height: 28px;
+}
+
+.hobbies_items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackBack {
+    background-color: #545454;
+    width: fit-content;
+    padding: 0.5rem 4rem;
+    border-radius: 5px;
+    font-weight: 600;
+    position: relative;
+    color: #fff !important;
+}
+
+.blackBack::after {
+    content: "";
+    width: 260px;
+    height: 2px;
+    background-color: #545454;
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+}
+
+.right-side {
+    color: rgba(52, 52, 52, 1);
+}
+
+.expItems h3, h4, h5{
+    font-weight: 700;
+}
