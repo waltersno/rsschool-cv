@@ -136,7 +136,7 @@ a:hover {
 
 .blackBack::after {
     content: "";
-    width: 260px;
+    width: 200px;
     height: 2px;
     background-color: #545454;
     display: block;
@@ -151,4 +151,19 @@ a:hover {
 
 .expItems h3, h4, h5{
     font-weight: 700;
+}
+
+.js {
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 550px)  {
+    .blackBack::after {
+        display: none;
+    }
 }
