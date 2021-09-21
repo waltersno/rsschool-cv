@@ -63,6 +63,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.right-side a {
+    color: blueviolet;
+}
+
 .img_container img {
     display: block;
     border-radius: 50%;
