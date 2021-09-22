@@ -4,7 +4,6 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
-    word-break: break-all;
 }
 
 a {
@@ -203,6 +202,10 @@ a:hover {
     justify-content: center;
 }
 
+.site{
+    word-break: break-word;
+}
+
 @media only screen and (max-width: 400px)  {
     .img_container img {
         width: 100px;
@@ -241,7 +244,7 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 570px)  {
+@media only screen and (min-width: 990px)  {
     .nav {
         display: none;
     }
