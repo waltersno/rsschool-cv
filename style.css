@@ -75,6 +75,10 @@ a:hover {
     padding-left: 0;
 }
 
+.contacts img {
+    width: 18px;
+}
+
 .img_container img {
     display: block;
     border-radius: 50%;
