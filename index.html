@@ -33,10 +33,11 @@
     <div class="wrapper">
       <div class="container">
         <nav class="nav">
-          <ul>
+          <ul class="nav-list">
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#example">Example</a></li>
+            <li><a href="#myworks">My works</a></li>
           </ul>
         </nav>
         <div class="burger-wrapper">
@@ -55,20 +56,21 @@
                   <h3 class="position">Frontend Developer</h3>
                 </div>
               </div>
-              <div class="mail gray_container">
-                <img src="assets/images/contacts/Vector.svg" alt="mail" /><a
+              <ul class="contacts">
+                <li class="mail gray_container">
+                  <img src="assets/images/contacts/Vector.svg" alt="mail" /><a
                   href="mailto:j.walter.skott@gmail.com"
                   >j.walter.skott@gmail.com</a
                 >
-              </div>
-              <div class="phone gray_container">
-                <img
+                </li>
+                <li class="phone gray_container">
+                  <img
                   src="assets/images/contacts/mdi_call.svg"
                   alt="call"
                 /><span>+7 (771) 289-1417</span>
-              </div>
-              <div class="site gray_container">
-                <img
+                </li>
+                <li class="site gray_container">
+                  <img
                   src="assets/images/contacts/website.svg"
                   alt="website"
                 /><span
@@ -76,13 +78,14 @@
                     >https://waltersno.github.io/rsschool-cv/</a
                   ></span
                 >
-              </div>
-              <div class="location gray_container">
-                <img
+                </li>
+                <li class="location gray_container">
+                  <img
                   src="assets/images/contacts/mdi_location_on.svg"
                   alt="location"
                 /><span>Petropavl, Kazakhstan</span>
-              </div>
+                </li>
+              </ul>
               <div class="industry_container gray_container">
                 <h4 class="headerPresent">Industry Knowledge</h4>
                 <ul>
@@ -126,22 +129,22 @@
               <div class="hobbies gray_container">Hobbies</div>
               <div class="hobbies_items">
                 <div>
-                  <img src="assets/images/Reading.svg" alt="reding" /><span
+                  <img src="assets/images/Reading.svg" alt="reding" /><span class="mt-2"
                     >Reading</span
                   >
                 </div>
                 <div>
-                  <img src="assets/images/gaming-gamepad.svg" alt="game" /><span
+                  <img src="assets/images/gaming-gamepad.svg" alt="game" /><span class="mt-2"
                     >Cybersport</span
                   >
                 </div>
                 <div>
-                  <img src="assets/images/table-tennis.svg" alt="tennis" /><span
+                  <img src="assets/images/table-tennis.svg" alt="tennis" /><span class="mt-2"
                     >Table tennis</span
                   >
                 </div>
                 <div>
-                  <img src="assets/images/swimming.svg" alt="swimming" /><span
+                  <img src="assets/images/swimming.svg" alt="swimming" /><span class="mt-2"
                     >Swimming</span
                   >
                 </div>
@@ -198,20 +201,22 @@ function firstNonRepeatingLetter(s) {
   </code>
   </pre>
               </div>
-              <div class="blackBack">My Works</div>
+              <div class="blackBack" id="myworks">MY WORKS</div>
               <div class="expItems mt-3 text-center">
                 <h4>Site https://kekilbaev.skom.kz/</h4>
                 <a href="https://kekilbaev.skom.kz/" target="_blank"
                   ><img src="assets/images/site1.png" alt="site1" width="250"
                 /></a>
-                <p class="mt-2">HTML, CSS, JavaScript, Joomla</p>
+                <p class="mt-2 mb-1">HTML, CSS, JavaScript, Joomla</p>
+                <p>School website where parents and schoolchildren can watch news and schedule.</p>
               </div>
               <div class="expItems mt-3 text-center">
                 <h4>Site http://vasilek-baik.ru/</h4>
                 <a href="http://vasilek-baik.ru/" target="_blank"
                   ><img src="assets/images/site2.png" alt="site2" width="250"
                 /></a>
-                <p class="mt-2">HTML, CSS, JavaScript, Joomla</p>
+                <p class="mt-2 mb-1">HTML, CSS, JavaScript, Joomla</p>
+                <p>This was my first site where I used html and css. The work took about 3 days. I used bootstrap for adaptability.</p>
               </div>
             </aside>
             <footer class="footer">
