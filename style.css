@@ -32,6 +32,10 @@ a:hover {
     display: none;
 }
 
+.nav-list a {
+    display: block;   
+}
+
 .burger-wrapper {
     position: fixed;
     right: 18px;
@@ -67,6 +71,10 @@ a:hover {
     color: blueviolet;
 }
 
+.contacts {
+    padding-left: 0;
+}
+
 .img_container img {
     display: block;
     border-radius: 50%;
@@ -82,17 +90,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.name_position > .position{
+.name_position > .position {
     font-weight: 600;
     font-size: 15px;
 }
 
-.name_position > .name{
+.name_position > .name {
     font-weight: 400;
     font-size: 25px;
 }
 
-.name_position > .surname{
+.name_position > .surname {
     font-weight: 500;
     font-size: 35px;
 }
@@ -191,6 +199,38 @@ a:hover {
     justify-content: center;
 }
 
+@media only screen and (max-width: 400px)  {
+    .img_container img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_position > .name {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .name_position > .surname {
+        font-weight: 500;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .hobbies_items {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .hobbies_items div {
+        flex-basis: 40%;
+    }
+
+    .expItems h3, h4, h5{
+        font-size: 18px;
+    }
+ }
+
 @media only screen and (max-width: 550px)  {
     .blackBack::after {
         display: none;
@@ -205,3 +245,9 @@ a:hover {
         display: none;
     }
 }
+
+@media only screen and (max-width: 990px)  { 
+    .wrapper {
+        margin: 0 0;
+    }
+ }

@@ -1,6 +1,8 @@
 window.onload = function() {
     const nav = document.querySelector('.nav')
     const button = document.querySelector('.burger-wrapper')
+    const navList = document.querySelector('.nav-list')
+
     const myFunc = () => {
         if (nav.classList.contains('show')) {
             nav.classList.remove('show')
@@ -8,8 +10,15 @@ window.onload = function() {
             nav.classList.add('show')
         }
     }
-    
+
     button.addEventListener('click', myFunc);
+    navList.childNodes.forEach(item => {
+        item.addEventListener('click', function() {
+            if (nav.classList.contains('show')) {
+                nav.classList.remove('show')
+            }
+        })
+    })
 }
 
 console.log(`вёрстка валидная +10,
